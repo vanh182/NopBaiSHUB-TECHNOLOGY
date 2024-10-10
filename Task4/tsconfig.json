@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6", 
+      "module": "commonjs", 
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "lib": ["ES2015", "DOM"]  // Thêm ES2015 vào đây
+    },
+    "include": [
+      "index.ts"
+    ]
+  }
+  
