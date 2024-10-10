@@ -17,7 +17,7 @@ async function sendOutput(token: string, results: number[]) {
     });
 }
 
-function processQueries(data: number[], queries: { type: string; range: number[] }[]) {
+function processQueries(data: number[], queries: { type: string; range: number[] }[]): number[] {
     const results: number[] = [];
 
     // Tính tổng tiền tố cho loại 1
